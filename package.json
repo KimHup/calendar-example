@@ -7,12 +7,18 @@
     "gh-pages": "^2.0.1",
     "moment": "^2.24.0",
     "ra-data-json-server": "^2.9.2",
+    "ra-data-simple-rest": "^2.9.3",
     "react": "^16.8.6",
     "react-admin": "^2.9.2",
     "react-dates": "^20.2.3",
     "react-dom": "^16.8.6",
     "react-moment-proptypes": "latest",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "ra-core": "latest",
+    "@material-ui/core": "latest",
+    "prop-types": "latest",
+    "recompose": "latest",
+    "lodash": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
