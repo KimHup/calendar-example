@@ -3,22 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "latest",
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
+    "lodash": "latest",
     "moment": "^2.24.0",
+    "prop-types": "latest",
+    "ra-core": "latest",
     "ra-data-json-server": "^2.9.2",
     "ra-data-simple-rest": "^2.9.3",
     "react": "^16.8.6",
-    "react-admin": "^2.9.2",
+    "react-admin": "^2.9.3",
     "react-dates": "^20.2.3",
     "react-dom": "^16.8.6",
     "react-moment-proptypes": "latest",
     "react-scripts": "3.0.1",
-    "ra-core": "latest",
-    "@material-ui/core": "latest",
-    "prop-types": "latest",
-    "recompose": "latest",
-    "lodash": "latest"
+    "recompose": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
