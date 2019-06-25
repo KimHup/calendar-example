@@ -4,6 +4,7 @@ import moment from "moment";
 import 'react-dates/initialize';
 import 'react-dates/lib/css/_datepicker.css';
 import { DateRangePicker } from 'react-dates';
+import get from "lodash/get";
 
 
 
@@ -15,12 +16,13 @@ export class Calendar extends Component {
             endDate: null,
             focusedInput: null,
         };
-
     }
     componentDidMount() {
+        if (!this.props){
         fetch('https://my-json-server.typicode.com/msand/demo/nodes')
             .then(response => response.json())
             .then((jsonData) => {
+
                 this.setState({
                     startDate: moment(JSON.parse(JSON.stringify(jsonData[0])).timePeriod.start.value),
                     endDate: moment(JSON.parse(JSON.stringify(jsonData[0])).timePeriod.end.value)
@@ -29,10 +31,16 @@ export class Calendar extends Component {
             .catch((error) => {
                 console.error(error)
             });
+        }
+        else {
+            this.setState({
+                startDate: moment(this.props.start),
+                endDate: moment(this.props.end)
+            })
+        }
    }
 
     render() {
-
         return (
 
             <div className="Calendar">
@@ -44,6 +52,8 @@ export class Calendar extends Component {
                     onDatesChange={({ startDate, endDate }) => { this.setState({ startDate, endDate })}}
                     focusedInput={this.state.focusedInput}
                     onFocusChange={(focusedInput) => { this.setState({ focusedInput })}}
+                    small={true}
+                    appendToBody={true}
                 />
             </div>
         );
