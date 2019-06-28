@@ -46,17 +46,21 @@ export class DateRangeInput extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            startDate: null,
-            endDate: null,
+            startDate: moment(this.props.input.value.start),
+            endDate: moment(this.props.input.value.end),
             focusedInput: null,
         };
     }
     componentDidMount() {
-        const { start, end } = this.props.input.value;
-        this.setState({
-            startDate: moment(start),
-            endDate: moment(end)
-        })
+        this.props.input.onChange({
+            start: {
+                value: this.state.startDate,
+                inclusive: true,
+            },
+            end: {
+                value: this.state.startDate,
+                inclusive: true },
+        });
     }
     onDatesChange({ startDate, endDate }) {
         this.setState({ startDate, endDate });
