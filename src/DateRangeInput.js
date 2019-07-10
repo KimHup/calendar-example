@@ -46,19 +46,17 @@ export class DateRangeInput extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            startDate: moment(this.props.input.value.start),
-            endDate: moment(this.props.input.value.end),
             focusedInput: null,
         };
     }
     componentDidMount() {
         this.props.input.onChange({
             start: {
-                value: this.state.startDate,
+                value: this.props.input.value.start.value,
                 inclusive: true,
             },
             end: {
-                value: this.state.startDate,
+                value: this.props.input.value.end.value,
                 inclusive: true },
         });
     }
@@ -76,15 +74,13 @@ export class DateRangeInput extends Component {
 
     }
     render() {
-        console.log(this.props.input.value)
         return (
-
             <div className="Calendar">
                 <DateRangePicker
                     startDateId="startDate"
                     endDateId="endDate"
-                    startDate={this.state.startDate}
-                    endDate={this.state.endDate}
+                    startDate={moment(this.props.input.value.start.value)}
+                    endDate={moment(this.props.input.value.end.value)}
                     isOutsideRange={() => false}
                     onDatesChange={({ startDate, endDate }) => { this.onDatesChange({ startDate, endDate })}}
                     focusedInput={this.state.focusedInput}

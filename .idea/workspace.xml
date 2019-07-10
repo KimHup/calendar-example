@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a5f083-fb08-4c4a-9d76-c6d38539289d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DateRangeField.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DateRangeInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DatePicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateRangePicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateRangeInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateRangeInput.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -56,11 +50,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DateRangeInput.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DateRangeInput.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DateRangeInput.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+            <state relative-caret-position="221">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +65,8 @@
       <file leaf-file-name="DateRangeField.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DateRangeField.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+            <state relative-caret-position="867">
+              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -114,10 +111,10 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/DateRangeField.js" />
         <option value="$PROJECT_DIR$/src/nodes.js" />
-        <option value="$PROJECT_DIR$/src/DateRangeInput.js" />
         <option value="$PROJECT_DIR$/src/DateRangePicker.js" />
         <option value="$PROJECT_DIR$/src/DatePicker.js" />
         <option value="$PROJECT_DIR$/src/Dashboard.js" />
+        <option value="$PROJECT_DIR$/src/DateRangeInput.js" />
       </list>
     </option>
   </component>
@@ -216,7 +213,8 @@
       <workItem from="1561540627306" duration="234000" />
       <workItem from="1561634998108" duration="8000" />
       <workItem from="1561636098892" duration="599000" />
-      <workItem from="1561717554026" duration="5186000" />
+      <workItem from="1561717554026" duration="7873000" />
+      <workItem from="1562793364988" duration="1451000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1560867653635</created>
@@ -246,11 +244,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561492618148</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Edit and Create added">
+      <created>1561722788155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561722788155</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed onChange">
+      <created>1561724848137</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561724848137</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55632000" />
+    <option name="totallyTimeSpent" value="59770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
@@ -259,13 +271,12 @@
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791232" visible="true" weight="0.108932465" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50054467" side_tool="true" visible="true" weight="0.27557412" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49945533" weight="0.32985386" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5092593" side_tool="true" visible="true" weight="0.27557412" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49945533" weight="0.32985386" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32985386" />
       <window_info id="npm" order="2" sideWeight="0.50155765" side_tool="true" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.50155765" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49183005" weight="0.27557412" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49074075" visible="true" weight="0.27557412" />
       <window_info id="Favorites" order="3" sideWeight="0.5020877" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -276,6 +287,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32985386" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49945533" weight="0.32985386" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +301,9 @@
     <MESSAGE value="Trying to get react-admin to work" />
     <MESSAGE value="Dashboard has the datepicker and a list of nodes not working" />
     <MESSAGE value="Datepicker in the list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Datepicker in the list" />
+    <MESSAGE value="Edit and Create added" />
+    <MESSAGE value="Fixed onChange" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed onChange" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -507,6 +521,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DateRangePicker.js" />
+    <entry file="file://$PROJECT_DIR$/src/DatePicker.js" />
+    <entry file="file://$PROJECT_DIR$/src/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DateRangeField.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/nodes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -516,54 +559,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DateRangeInput.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateRangeField.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateRangePicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="52" lean-forward="true" selection-end-line="62" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DatePicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
